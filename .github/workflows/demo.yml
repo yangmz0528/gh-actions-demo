@@ -11,11 +11,11 @@ jobs:
          echo "Hi we can enter multiple"
          echo "lines of shell commands"
          echo "here.."
-     - name: Faking an error
-       run: |
-        echo "Before Faking an error"
-        exit 1
-        echo "After faking an error"
+     #- name: Faking an error
+     #  run: |
+     #   echo "Before Faking an error"
+     #   exit 1
+     #   echo "After faking an error"
      - name: List files in the repository
        run: |
          echo "Listing files in the repository(${{ github.workspace }}).."
