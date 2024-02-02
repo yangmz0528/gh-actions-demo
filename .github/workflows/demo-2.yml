@@ -1,4 +1,4 @@
-name: Demo Workflow #2
+name: Demo Workflow 2
 on: 
  push:
   branches:
