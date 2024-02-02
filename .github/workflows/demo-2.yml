@@ -1,4 +1,4 @@
-name: Demo Workflow #2.1
+name: Demo Workflow #2 (introducing change on test branch)
 on: [push]
 jobs:
  Demo-Job:
