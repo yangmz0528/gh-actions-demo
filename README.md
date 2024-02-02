@@ -27,5 +27,5 @@ Filters can be used to control when your workflow should run
 2. Modify the workflow at `.github/workflows/demo2.yml` such that it gets triggered upon a push to the `main` branch only
 3. Commit, push and check the workflow executions status
    - number of workflow runs depends on how many workflow is created
-   - workflow will still get triggered when you introduce a change to another branch 
+   - workflow in main branch will not be triggered by changes in another branch 
  
