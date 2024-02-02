@@ -19,3 +19,13 @@ Create a second workflow that shows the contents of your readme
    - Copy the full contents of `demo.yml`
    - Change the name to `Demo Workflow #2`
 2. Modify the workflow such that it will print (e.g. `cat` command) the contents of the `README.md` file
+3. Commit, push and check the workflow executions status
+4. Create a new branch and see if the changes in new branch will trigger the workflow run in `main` branch
+   - number of workflow runs depends on how many workflow is created
+   - workflow in main branch will not be triggered by changes in another branch
+
+## Activity 2b: Narrowing the Scope of Workflow Triggers
+Filters can be used to control when your workflow should run
+1. Back to `main` branch
+2. Modify the workflow at `.github/workflows/demo2.yml` such that it gets triggered upon a push to the `main` branch only
+3. Commit, push and check the workflow execution status, validate that your filters work
