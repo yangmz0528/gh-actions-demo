@@ -7,9 +7,12 @@ jobs:
    steps:
      - name: Check out repository code
        uses: actions/checkout@v4
-     - name: show repo variable
+     - name: print repo variable
        run: |
          echo "repository variable : $vars.EXAMPLE_VARIABLE"
+     - name: print repo secret
+       run: |
+         echo "repository secret: $secrets.EXAMPLE_SECRET"
      - name: Some shell commands
        run: |
          echo "Hi we can enter multiple"
