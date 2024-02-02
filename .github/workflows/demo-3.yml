@@ -7,6 +7,9 @@ jobs:
    steps:
      - name: Check out repository code
        uses: actions/checkout@v4
+     - name: show repo variable
+       run: |
+         echo "repository variable : $vars.EXAMPLE_VARIABLE"
      - name: Some shell commands
        run: |
          echo "Hi we can enter multiple"
